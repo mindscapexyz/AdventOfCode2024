@@ -10,8 +10,8 @@ int main() {
 	std::vector<int> left, right;
 	long dist = 0;
 	try {
-		//day_01::parseInput("test-input.txt", left, right);
-		day_01::parseInput("input.txt", left, right);
+		//day_1::parseInput("test-input.txt", left, right);
+		day_1::parseInput("input.txt", left, right);
 	}
 	catch (const std::exception& e) {
 		std::cerr << e.what();
